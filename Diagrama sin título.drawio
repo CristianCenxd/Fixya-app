@@ -13,16 +13,28 @@
           <mxGeometry x="6" y="20" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I0tGteSejOS898NKXpd8-7" value="Zonas" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="240" y="40" width="195" height="170" as="geometry" />
+          <mxGeometry x="240" y="40" width="180" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="I0tGteSejOS898NKXpd8-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_Espacio PK&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Ubicación&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Precio_Renta&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Tamaño&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Tipo&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Estado&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="I0tGteSejOS898NKXpd8-7" vertex="1">
-          <mxGeometry x="6" y="19.75" width="120" height="150" as="geometry" />
+        <mxCell id="I0tGteSejOS898NKXpd8-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_espacio PK&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;ID_proveedor FK&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Ubicación&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Precio_Renta&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Tamaño&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Tipo&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="I0tGteSejOS898NKXpd8-7" vertex="1">
+          <mxGeometry x="6" y="18" width="135" height="135" as="geometry" />
         </mxCell>
         <mxCell id="qeTdSyfiYUv6IoI1KZmC-1" value="Servicios" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="510" y="40" width="160" height="117.5" as="geometry" />
         </mxCell>
-        <mxCell id="B6Egt4xbeelavrb5uQv_-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_Servicio PK&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ID_proveedor Fk&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Descripción&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Precio&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qeTdSyfiYUv6IoI1KZmC-1">
+        <mxCell id="B6Egt4xbeelavrb5uQv_-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_servicio PK&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ID_proveedor Fk&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Descripción&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Precio&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qeTdSyfiYUv6IoI1KZmC-1">
           <mxGeometry x="6" y="19.75" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B6Egt4xbeelavrb5uQv_-7" value="Proveedores" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="225" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="B6Egt4xbeelavrb5uQv_-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_proveedor PK&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Nombre&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Teléfono&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Correo&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B6Egt4xbeelavrb5uQv_-7">
+          <mxGeometry x="8" y="20" width="135" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="B6Egt4xbeelavrb5uQv_-9" value="Solicitudes" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="B6Egt4xbeelavrb5uQv_-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ID_solicitud PK&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ID_servicio FK&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ID_cliente FK&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;FechaInicio&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;FechaFinal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;PrecioTotal&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B6Egt4xbeelavrb5uQv_-9">
+          <mxGeometry x="6" y="19.5" width="135" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
